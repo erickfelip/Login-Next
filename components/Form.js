@@ -8,7 +8,7 @@ export function Form1() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your account
+            Entrar na sua conta
           </h2>
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
@@ -24,8 +24,8 @@ export function Form1() {
                 type="email"
                 autoComplete="email"
                 required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Email address"
+                className="appearance-none rounded relative block w-full px-3 py-3 mb-4 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Email"
               />
             </div>
             <div>
@@ -38,8 +38,8 @@ export function Form1() {
                 type="password"
                 autoComplete="current-password"
                 required
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="Password"
+                className="appearance-none rounded relative block w-full px-3 py-3 mb-4 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Senha"
               />
             </div>
           </div>
@@ -65,7 +65,7 @@ export function Form1() {
                 href="#"
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
-                Forgot your password?
+                Esqueceu sua senha?
               </a>
             </div>
           </div>
@@ -81,11 +81,11 @@ export function Form1() {
                   aria-hidden="true"
                 />
               </span>
-              Sign in
+              Entrar
             </button>
             <Link href="/register" passHref>
               <a className="mt-6 text-center text-1 font-light hover:text-gray-900 flex items-center justify-center">
-                Register
+                Cadastre-se
               </a>
             </Link>
           </div>
